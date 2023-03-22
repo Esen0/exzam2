@@ -1,23 +1,25 @@
-.img{
+.img {
     width: 100%;
     margin-top: 3%;
     background-image: url(/exzam2/exzam/src/components/img/image\ 7.png);
 }
-.imgg{
+
+.imgg {
     margin-left: 7%;
     margin-top: -1100%;
     margin-bottom: 21%;
-    
+
     background: rgba(255, 255, 255, 0.44);
     border-radius: 8px;
     width: 160px;
 }
-.text1{
+
+.text1 {
     width: 483px;
     height: 126px;
-    
+
     /* h/55 */
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -26,14 +28,15 @@
     margin-top: -20%;
     margin-left: 7%;
     /* or 58px */
-    
-    
+
+
     /* white */
-    
+
     color: #ffffff;
-    
+
 }
-.block{
+
+.block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,16 +47,17 @@
     height: 104px;
     margin-left: 7%;
     margin-top: 155px;
-    
+
     /* white */
-    
+
     background: #f2f2f2;
     /* white block shadow */
-    
+
     box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.11);
     border-radius: 13px;
     z-index: 4;
 }
+
 .line {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
@@ -61,46 +65,50 @@
     margin-left: 130px;
     margin-top: -145px;
 }
-.text2{
+
+.text2 {
     width: 100px;
     height: 200px;
-   margin-top: -3%;
-   font-size: 30px;
-   line-height: 200%;
-   color: rgb(0, 0, 0);
+    margin-top: -3%;
+    font-size: 30px;
+    line-height: 200%;
+    color: rgb(0, 0, 0);
 }
-.text3{
+
+.text3 {
     width: 100px;
     height: 300px;
-   margin-top: -53%;
-   font-size: 30px;
-   line-height: 200%;
-   color: rgb(0, 0, 0);
-   margin-left: 60%;
+    margin-top: -53%;
+    font-size: 30px;
+    line-height: 200%;
+    color: rgb(0, 0, 0);
+    margin-left: 60%;
 }
-.text4{
+
+.text4 {
     width: 701px;
     height: 189px;
     margin-left: 47%;
     margin-top: 28px;
-    
+
     /* body/18 */
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
     /* or 150% */
-    
+
     display: flex;
     align-items: flex-end;
-    
+
     /* black */
-    
+
     color: #0C0C0C;
 }
-.block2{
+
+.block2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -109,80 +117,82 @@
     margin-left: 6%;
     box-shadow: 5px 20px 21px rgba(0, 0, 0, 0.363);
 
-    
+
     width: 1648px;
     height: 400px;
-    
+
     /* yellow */
-    
+
     background: #FFE500;
     border-radius: 20px;
-    
+
     /* Inside auto layout */
-    
+
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-.imgg_11{
+
+.imgg_11 {
     width: 380px;
     height: 380px;
     margin-top: 1%;
     margin-left: 2%;
     background: url(86720-inci.png);
 }
-.text5{
+
+.text5 {
     /* Купить NFT очень просто */
 
 
-            width: 789px;
-            height: 42px;
+    width: 789px;
+    height: 42px;
 
-            /* h/40 */
+    /* h/40 */
 
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 40px;
-            margin-left: 40%;
-            margin-top: -330px;
-            /* or 42px */
-
-
-            /* black */
-
-            color: #0C0C0C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 40%;
+    margin-top: -330px;
+    /* or 42px */
 
 
-            /* Inside auto layout */
+    /* black */
 
-            flex: none;
-            order: 0;
-            flex-grow: 0;
+    color: #0C0C0C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-.text6{
-            margin-left: 40.2%;
-            margin-top: -10px;
-            width: 785px;
-            height: 180px;
+.text6 {
+    margin-left: 40.2%;
+    margin-top: -10px;
+    width: 785px;
+    height: 180px;
 
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 30px;
-            /* or 150% */
-
-
-            /* black */
-
-            color: #0C0C0C;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 150% */
 
 
-            /* Inside auto layout */
+    /* black */
 
-            flex: none;
-            order: 1;
-            flex-grow: 0;
+    color: #0C0C0C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
