@@ -12,16 +12,17 @@ function App() {
 
   return (
     <div className="container">
-      <Nav></Nav>
+    <Nav></Nav>
    <Routes>
 
-<Route path='/main' element={<Main/>}/>
+<Route path='/' element={<Main/>}/>
 <Route path='/fond' element={<Fond/>}/>
 <Route path='/card' element={<Card/>}/>
 <Route path='/footer' element={<Footer/>}/>
 
       
    </Routes>
+
     </div>
   )
 }

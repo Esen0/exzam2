@@ -1,0 +1,22 @@
+.main {
+    width: 1270px;
+    height: 900px;
+    background-color: #C5EC00;
+   margin-left: 40px;
+   margin-top: 40px;
+   border-radius: 20px;
+}
+.asaid {
+   position: absolute;
+padding-left: 800px;
+padding-top: 50px;
+}
+.title {
+    width: 500px;
+    font-size: 27px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.nft_span {
+    
+}
