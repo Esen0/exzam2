@@ -17,9 +17,9 @@ const Nav = () => {
     <a href="" className={styles.help}>Зачем все это </a>
   </CustomLink>
 
-  
+  {/* <CustomLink to=""> */}
     <a href="https://vc.ru/marketing/363272-slovar-nft-terminov-likbez-dlya-predprinimateley-i-marketologov" target={'_blank'} className={styles.nft}>Что такое pre-NFT?</a>
- 
+ {/* </CustomLink> */}
 
   <CustomLink to="/404">
     <a href="" className={styles.faq}>FAQ</a>
