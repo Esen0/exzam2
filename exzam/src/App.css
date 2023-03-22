@@ -44,3 +44,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin: 40px;
+  margin-left: 6%;
+}
