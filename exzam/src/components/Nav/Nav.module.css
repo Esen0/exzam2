@@ -68,6 +68,7 @@ margin-top: 25px;
     margin-top: 30px;
   padding-left: 30px;
   color: gray;
+
 }
 @media screen and (max-width: 320px) {
     .CustomLink {
