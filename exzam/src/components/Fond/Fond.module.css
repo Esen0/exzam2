@@ -139,6 +139,7 @@
     margin-top: 1%;
     margin-left: 2%;
     background: url(86720-inci.png);
+    border-radius: 30px;
 }
 
 .text5 {
@@ -147,7 +148,7 @@
 
     width: 789px;
     height: 43px;
-
+    font-size: 12px;
 
     /* h/40 */
 
