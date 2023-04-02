@@ -18,11 +18,11 @@ function App() {
 <Route path='/' element={<Main/>}/>
 <Route path='/fond' element={<Fond/>}/>
 <Route path='/card' element={<Card/>}/>
-<Route path='/footer' element={<Footer/>}/>
+
 
       
    </Routes>
-
+ <Footer/>
     </div>
   )
 }

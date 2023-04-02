@@ -8,7 +8,6 @@ import img_foto5 from '../img/image 7 (1).png'
 import img_foto6 from '../img/image 9.png'
 import img_foto7 from '../img/image 12.png'
 import img_foto8 from '../img/image 10.png'
-import Footer from '../Footer/Footer'
 
 
 
@@ -51,7 +50,6 @@ const Fond = () => {
 
 
       </div>
-      <Footer/>
       
       </div>
 

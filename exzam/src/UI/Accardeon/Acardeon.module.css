@@ -1,0 +1,30 @@
+.faq {
+    margin: 20px auto;
+    width: 1250px;
+    
+}
+.faq_text {
+    display: none;
+    color: 16px;
+    color: black;
+}
+.faq_title {
+    display: block;
+    color: black;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-bottom: 1px solid black ;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.faq_input {
+    -webkit-appearance: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: 1s;
+}
+.faq_input:checked + .faq_text {
+    display: block;   
+    transition: 1s;
+}
