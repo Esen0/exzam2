@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from '../../UI/Modal/Modal'
 import CustomLink from './CustomLink'
 import styles from "./Nav.module.css"
 
 const Nav = () => {
+ const [modalActive, setModalActive] = useState(true)
   return (
    <div className={styles.container}>
     
@@ -17,19 +19,23 @@ const Nav = () => {
     <a href="" className={styles.help}>Зачем все это </a>
   </CustomLink>
 
-  {/* <CustomLink to=""> */}
+
     <a href="https://vc.ru/marketing/363272-slovar-nft-terminov-likbez-dlya-predprinimateley-i-marketologov" target={'_blank'} className={styles.nft}>Что такое pre-NFT?</a>
- {/* </CustomLink> */}
+
 
   <CustomLink to="/404">
     <a href="" className={styles.faq}>FAQ</a>
   </CustomLink>
 
-  <button className={styles.btn}>Расскажите о нас</button>
-
+  <button className={styles.btn}  onClick={()=> setModalActive(true)} >Расскажите о нас</button>
 </div>
+        
+        <Modal active={modalActive} setActive={setModalActive}/>
+
    </div>
-  )
+ )
+ 
 }
+
 
 export default Nav

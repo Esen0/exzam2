@@ -20,6 +20,7 @@ function App() {
 <Route path='/' element={<Main/>}/>
 <Route path='/fond' element={<Fond/>}/>
 <Route path='/card' element={<Card/>}/>
+
 <Route path='/team' element={<Team/>}/>  
 <Route path='/faq' element={<Faq/>}/>   
 
@@ -31,6 +32,13 @@ function App() {
      
    </Routes>
  <Footer></Footer>
+
+
+
+      
+   </Routes>
+ <Footer/>
+
     </div>
   )
 }

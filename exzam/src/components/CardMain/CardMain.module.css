@@ -1,0 +1,50 @@
+.imgs {
+    position: absolute;
+    z-index: -1;
+}
+.card {
+    color: white;
+}
+.title {
+    padding-top: 250px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.range {
+    width: 270px;
+    margin-left: 15px;
+}
+.rub {
+    font-size: 24px;
+    margin: 0;
+    margin-left: 15px;
+}
+.numbers {
+    margin: 0px;
+    font-size: 20px;
+}
+.block1 {
+display: flex;
+gap: 100px;
+align-items: center;
+}
+.text8 {
+    background: rgba(255, 255, 255, 0.2);
+    width: 106px;
+    height: 28px;
+    border-radius: 18px;
+    align-items: center;
+    padding-top: 6px;
+    margin-top: 2px;
+    color: white;
+    font-size: 18px;
+}
+.block_text {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 20px;
+    margin-left: 15px;
+}

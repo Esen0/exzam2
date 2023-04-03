@@ -8,7 +8,9 @@ import img_foto5 from '../img/image 7 (1).png'
 import img_foto6 from '../img/image 9.png'
 import img_foto7 from '../img/image 12.png'
 import img_foto8 from '../img/image 10.png'
+
 // import Footer from '../Footer/Footer'
+
 
 
 
@@ -50,6 +52,7 @@ const Fond = () => {
         <h4 className={styles.text6}>В нашей галерее вы покупаете pre-NFT. Это ваучер, резервирующий NFT-картину. Для покупки pre-NFT нужна только банковская карта, Web3-кошелёк и криптовалюта не понадобятся. Этот упрощённый вариант покупки NFT подойдёт всем, особенно тем, кто ещё не начал разбираться в технологии Web3. Обменять свой pre-NFT на NFT-токен можно в любой момент при наличии у вас криптокошелька.</h4>
 
       </div>
+
       </div>
   )
 }
