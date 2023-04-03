@@ -1,0 +1,195 @@
+.card2{
+    /* team card/pasha */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 10px;
+
+width: 426px;
+height: 190px;
+
+/* white */
+
+background: #f9f8f8;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 13px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+gap: 30px;
+}
+.imgg2{
+   /* photo */
+
+
+width: 90px;
+height: 90px;
+
+background: url(Checker.png);
+border-radius: 8px;
+margin-top: -8%;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text22{
+    /* Паша */
+
+
+width: 4px;
+height: 27px;
+
+/* title/18 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 27px;
+/* identical to box height, or 150% */
+margin-top: -3000%;
+margin-left: 3140%;
+
+
+/* black */
+
+color: #0C0C0C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.text222{
+    /* В ТокенДобра отвечает за маркетинг, PR, финансы. Бывший со-владелец эвент-агенства Back2work */
+
+
+width: 204px;
+height: 120px;
+
+/* body/16 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-top: 1%;
+/* or 150% */
+
+
+/* dark gray */
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+@media screen and (max-width:320px){
+    .card2{
+        max-width: 310px;
+        padding: 0;
+        margin: 0;
+        /* max-height: 300px; */
+    }
+    .title2{
+        padding: 0;
+        margin: 0;
+    }
+    .dasc2{
+        width: 10px;
+        height: 84px;
+        margin-left: 15%;
+        margin-top: -10%;
+        padding: 0;
+        margin: 0;
+        
+        /* body/14 */
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        /* or 150% */
+        
+        
+        /* dark gray */
+        
+        color: #000000;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .text22{
+        margin-left: 1000%;
+        margin-top: -1000%;
+    }
+    .text222{
+        width: 200px;
+        height: 84px;
+        
+        /* body/14 */
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 21px;
+        /* or 150% */
+        
+        
+        /* dark gray */
+        
+        color: #000000;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .imgg2{
+       /* photo */
+
+
+width: 60px;
+height: 60px;
+margin-top: 2%;
+margin-left: 5%;
+
+background: url(Checker.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+     }
+}

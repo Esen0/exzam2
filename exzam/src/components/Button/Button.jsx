@@ -4,7 +4,11 @@ import styles from './Button.module.css'
 
 function Button(props) {
     return (
-        <button className={btnType(props.type)}>{props.text}</button>
+        <div> 
+            {/* <button className={btnType(props.type)}>{props.text}</button> */}
+        <button className={styles.btn11}>Расскажите о нас</button>
+        </div>
+       
     )
 }
 
