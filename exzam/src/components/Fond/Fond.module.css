@@ -46,7 +46,7 @@
     width: 285px;
     height: 104px;
     margin-left: 7%;
-    margin-top: 155px;
+    margin-top: 75px;
 
     /* white */
 
@@ -114,11 +114,11 @@
     align-items: flex-start;
     padding: 94px 20px;
     gap: 10px;
-    margin-left: 6%;
+    margin-left: 4.5%;
     box-shadow: 5px 20px 21px rgba(0, 0, 0, 0.363);
 
 
-    width: 1648px;
+    width: 1348px;
     height: 400px;
 
     /* yellow */
@@ -134,10 +134,10 @@
 }
 
 .imgg_11 {
-    width: 380px;
-    height: 380px;
-    margin-top: 1%;
-    margin-left: 2%;
+    width: 300px;
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 5%;
     background: url(86720-inci.png);
     border-radius: 30px;
 }
@@ -148,16 +148,13 @@
 
     width: 789px;
     height: 43px;
-    font-size: 12px;
-
-    /* h/40 */
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 40%;
-    margin-top: -330px;
+    margin-top: -300px;
     /* or 42px */
 
 
@@ -175,14 +172,14 @@
 
 .text6 {
     margin-left: 40.2%;
-    margin-top: -10px;
-    width: 785px;
+    margin-top: -7px;
+    width: 680px;
     height: 180px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     /* or 150% */
 
@@ -197,4 +194,271 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:320px){
+    .img{
+        /* max-width: 320px; */
+        height: 365px;
+        width: 320px;
+        margin: 0;
+
+    }
+    .imgg{
+        width: 90px;
+        margin-left: 35%;
+        margin-top: -135%;
+        margin-bottom: 70%;
+    }
+    .text1{
+         margin-top: -65%;
+         margin-left: 15%;
+         width: 220px;
+         height: 114px;
+         
+         /* h mobile/36 */
+         
+         font-family: 'Montserrat';
+         font-style: normal;
+         font-weight: 500;
+         font-size: 36px;
+         line-height: 105.9%;
+         /* or 38px */
+         
+         text-align: center;
+         
+         /* white */
+         
+         color: #FFFFFF;
+         
+         
+         /* Inside auto layout */
+         
+         flex: none;
+         order: 1;
+         flex-grow: 0;
+    }
+    .block{
+                                /* brief */
+
+
+                       /* Auto layout */
+                       
+                       display: flex;
+                       flex-direction: column;
+                       align-items: flex-start;
+                       padding: 12px 20px;
+                       gap: 10px;
+                       
+                       width: 224px;
+                       height: 78px;
+                       margin-left: 29px;
+                       margin-top: 25px;
+                       
+                       /* white */
+                       
+                       background: #FFFFFF;
+                       /* white block shadow */
+                       
+                       box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.11);
+                       border-radius: 9px;
+    }
+    .text2{
+        /* Картин */
+
+
+        width: 56px;
+        height: 24px;
+        
+        /* title/14 */
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 23px;
+        margin-top: 2%;
+            line-height: 160%;
+        /* identical to box height, or 171% */
+        
+        
+        color: rgb(0, 0, 0);
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .text3{
+        /* Картин */
+
+
+        width: 56px;
+        height: 24px;
+        
+        /* title/14 */
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 23px;
+        margin-top: -22%;
+            line-height: 160%;
+        /* identical to box height, or 171% */
+        
+        
+        color: rgb(0, 0, 0);
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .line{
+        /* Line 8 */
+
+
+       width: 0px;
+       height: 70px;
+       margin-top: -53px;
+       margin-left: 48%;
+       
+       border: 2px solid rgba(0, 0, 0, 0.719);
+       
+       /* Inside auto layout */
+       
+       flex: none;
+       order: 1;
+       flex-grow: 0;
+    }
+
+    .text4{
+        width: 275px;
+        height: 294px;
+        margin-left: 29px;
+        margin-top: 40px;
+
+        /* body/14 */
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        /* or 150% */
+
+        display: flex;
+        align-items: flex-end;
+
+        /* black */
+
+        color: #0C0C0C;
+    }
+
+    .block2{
+        width: 280px;
+        height: 630px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .imgg_11{
+        width: 250px;
+        height: 250px;
+        border-radius: 0;
+        margin-top: -15%;
+
+    }
+    .text5{
+        /* Купить NFT очень просто */
+
+
+            width: 288px;
+            height: 60px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 30px;
+            margin-top: 1%;
+            margin-left: 15%;
+            margin: 20px;
+            padding: 0;
+            /* or 120% */
+
+
+            /* black */
+
+            color: #0C0C0C;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+    }
+    .text6{
+        /* Купить NFT очень просто */
+
+
+            width: 265px;
+            height: 60px;
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            margin-top: -4%;
+            margin-left: 7%;
+            /* or 120% */
+
+
+            /* black */
+
+            color: #0C0C0C;
+
+
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+    }
 }

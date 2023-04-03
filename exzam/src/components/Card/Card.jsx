@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Card.module.css'
 import Button from "../Button/Button"
-// import img_foto2 from '../img/image 7 (1).png'
 
 const Card = (props) => {
   return (
@@ -21,7 +20,7 @@ const Card = (props) => {
             </div>
             {/* <Button text="Button" /> */}
         </div>
+        
   )
 }
-
 export default Card
