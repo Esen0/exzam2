@@ -8,6 +8,9 @@ import Card from './components/Card/Card'
 import Footer from './components/Footer/Footer'
 import Team from './components/Team/Team'
 import Faq from './components/FAQ/Faq'
+import Dino from './components/Dino/Dino'
+import Pino from './components/Pino/Pino'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,22 +25,13 @@ function App() {
 <Route path='/card' element={<Card/>}/>
 
 <Route path='/team' element={<Team/>}/>  
-<Route path='/faq' element={<Faq/>}/>   
-
-{/* <Route path='/Footer' element={<Footer/>}/>    */}
-
-
+<Route path='/404' element={<Faq/>}/>   
+<Route path='/dino' element={<Dino/>}/>
+<Route path='/pino' element={<Pino/>}/>
 
 
-     
    </Routes>
  <Footer></Footer>
-
-
-
-      
-   </Routes>
- <Footer/>
 
     </div>
   )

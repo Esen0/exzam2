@@ -27,8 +27,21 @@ const Nav = () => {
     <a href="" className={styles.faq}>FAQ</a>
   </CustomLink>
 
+  {/* <CustomLink to="/dino">
+    <a href="" className={styles.faq}>FAQ</a>
+  </CustomLink> */}
+
   <button className={styles.btn}  onClick={()=> setModalActive(true)} >Расскажите о нас</button>
 </div>
+<CustomLink to="/dino">
+    <a href="" className={styles.faq}></a>
+  </CustomLink>
+  
+  <CustomLink to="/pino">
+    <a href="" className={styles.faq}></a>
+  </CustomLink>
+
+ 
         
         <Modal active={modalActive} setActive={setModalActive}/>
 

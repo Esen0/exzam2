@@ -28,3 +28,8 @@
     display: block;   
     transition: 1s;
 }
+@media screen and (max-width:320px){
+    .faq{
+        max-width: 320px;
+    }
+}
