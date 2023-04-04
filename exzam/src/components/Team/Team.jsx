@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './Team.module.css'
 import Card2 from '../Card2/Card2'
-import Button from '../Button/Button'
+// import Button from '../Button/Button'
+import TeamLinks from './TeamLinks'
 
 const Team = () => {
   return (
@@ -34,9 +35,11 @@ const Team = () => {
         </div>
 
       <div className={styles.block10}>
-      <h2 className={styles.text12}>Популяризация благотворительности – одна из главных задач нашего проекта. Мы будем крайне признательны, если вы поддержите эту идею и расскажете о галерее в своих социальных сетях. <Button text="Расскажите о нас" /> </h2>
+      <h2 className={styles.text12}>Популяризация благотворительности – одна из главных задач нашего проекта. Мы будем крайне признательны, если вы поддержите эту идею и расскажете о галерее в своих социальных сетях.
+        </h2>
+        <TeamLinks to='/dino' className={styles.button_team}><button className={styles.btn_team}>Расскажите o Dino</button></TeamLinks> 
       </div>
-
+ 
 
     </div>
   )

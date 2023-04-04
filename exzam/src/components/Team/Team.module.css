@@ -111,6 +111,36 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+.btn_team{
+    /* Расскажите о нас */
+    /* cursor: pointer; */
+
+
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 21px;
+    background: #000000;
+    color: white;
+    margin-left: 540%;
+    margin-top: -55%;
+
+    
+    /* title/18 */
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.button_team{
+   text-decoration: none;
+   outline: none;
+}
 
 
 @media screen and (max-width:320px){
@@ -201,6 +231,7 @@ flex-grow: 0;
         width: 259px;
 height: 192px;
 margin-top: -110px;
+margin-left: 90%;
 
 /* body/16 */
 
@@ -225,5 +256,12 @@ order: 0;
 flex-grow: 0;
 padding: 0;
 
+    }
+    .button_team{
+        /* margin-left: -450%; */
+    }
+    .btn_team{
+        margin-left: -120%;
+        margin-top: 110%;
     }
 }

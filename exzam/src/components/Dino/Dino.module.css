@@ -1,0 +1,124 @@
+.dino1{
+    /* h/55 */
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 550;
+font-size: 40px;
+line-height: 105.9%;
+margin-left: 2.7%;
+margin-top: 3%;
+/* or 58px */
+
+
+/* black */
+
+color: #0C0C0C;
+
+}
+.dino2{
+       /* h/55 */
+       width: 520px;
+       height: 120px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 105.9%;
+margin-left: -0.1px;
+margin-top: 1%;
+/* or 58px */
+
+
+/* black */
+
+color: #0C0C0C;
+}
+
+
+.block_dino_10{
+    /* share */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 51px;
+gap: 10px;
+margin-top: 10%;
+margin-left: 2%;
+
+width: 1360px;
+height: 100px;
+
+/* green */
+
+background: #C5EC00;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.text_dino_3{
+    width: 950px;
+height: 90px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 520;
+font-size: 21px;
+line-height: 30px;
+/* or 150% */
+
+
+/* black */
+
+color: #0C0C0C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.btn_dino{
+     /* Расскажите о нас */
+     /* cursor: pointer; */
+
+
+     width: 190px;
+     height: 40px;
+     border-radius: 10px;
+     border: 3px solid black;
+     padding: 21px;
+     background: #dbe3e0;
+     margin-left: 540%;
+     margin-top: -55%;
+
+     
+     /* title/18 */
+     
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 17px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     color: #0C0C0C;
+}
+.button_dino{
+    text-decoration: none;
+    outline: none;
+}
+.navs{
+    text-decoration: none;
+    color: blue;
+}
